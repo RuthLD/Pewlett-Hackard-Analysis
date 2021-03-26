@@ -45,3 +45,42 @@ ON e.emp_no = t.emp_no
 WHERE (e.birth_date BETWEEN '1965-01-01' AND '1965-12-31')
  AND (de.to_date = '9999-01-01')
 ORDER BY emp_no, to_date DESC;
+
+-- Get the number of retiring titles by department
+select ut.emp_no,
+		ut.first_name,
+		ut.last_name,
+		d.dept_name
+into dept_retiring
+from unique_titles as ut
+INNER JOIN dept_emp as de
+ON ut.emp_no = de.emp_no
+INNER JOIN departments AS d
+ON (de.dept_no = d.dept_no)
+order by ut.emp_no;
+
+SELECT COUNT (dr.dept_name), dr.dept_name
+INTO retiring_dept_count
+FROM dept_retiring as dr
+GROUP BY dr.dept_name
+ORDER BY dr.count DESC;
+
+-- Get the count of mentorship eligibilty by department 
+select me.emp_no,
+		me.first_name,
+		me.last_name,
+		me.title,
+		d.dept_name
+into mentorship_by_dept
+from mentorship_eligibilty as me
+INNER JOIN dept_emp as de
+ON me.emp_no = de.emp_no
+INNER JOIN departments AS d
+ON (de.dept_no = d.dept_no)
+order by me.emp_no;
+
+SELECT COUNT (me.dept_name), me.dept_name
+INTO mentorship_dept_count
+FROM mentorship_by_dept as me
+GROUP BY me.dept_name
+ORDER BY me.count DESC;
