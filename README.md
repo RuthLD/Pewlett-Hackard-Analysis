@@ -14,13 +14,13 @@ The company was concerned by the number of employees eligible for retirement and
 * Query: [unique_titles_query.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/unique_titles_query.png)
 * Output: [unique_titles.csv](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Data/unique_titles.csv)
 ## Retiring Titles
+![retiring_titles.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/retiring_titles.png)
 * The image retiring_titles is the number of employees by most recent title who are eligible for retirement. The title held by the highest number of retirement-eligible employees is Senior Engineer (29,414). The title held by the least number of retirement-eligible employees is Manager (2).
-* ![retiring_titles.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/retiring_titles.png)
 * Query: [retiring_titles_query.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/retiring_titles_query.png)
 * Output: [retiring_titles.csv](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Data/retiring_titles.csv)
 ## Mentorship Eligibility
 * A total of 1,464 retirement-eligible employees are also eligible to participate in the mentorship program.
-* * Query: [mentorship_eligibility_query.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/mentorship_eligibility_query.png)
+* Query: [mentorship_eligibility_query.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/mentorship_eligibility_query.png)
 * Output: [mentorship_eligibility.csv](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Data/mentorship_eligibility.csv)
 
 # Summary: 
