@@ -26,7 +26,8 @@ The company was concerned by the number of employees eligible for retirement and
 * Two additional queries were performed to determine the number of employees eligible for retirement by department and the number of employees eligible for the mentorship program by each department from the unique_titles.csv to help each department prepare to fill open positions caused by the 'silver tsunami.' The Additional_queries image shows the queries. The images titles_by_dept and mentorship_count are the corresponding tables.
 
 ![Additional_queries.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/Additional_queries.png)
-![titles_by_dept.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/titles_by_dept.png)  ![mentorship_count.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/mentorship_count.png)
+![titles_by_dept.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/titles_by_dept.png)
+![mentorship_count.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/mentorship_count.png)
 
 ![retiring_titles.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/retiring_titles.png)
 * A total of 90,398 roles will need to be filled at the company Pewlett Hackard as seen in the retiring titles and titles by department images.
