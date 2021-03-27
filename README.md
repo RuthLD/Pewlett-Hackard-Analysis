@@ -24,10 +24,8 @@ The company was concerned by the number of employees eligible for retirement and
 * Output: [mentorship_eligibility.csv](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Data/mentorship_eligibility.csv)
 
 # Summary: 
-* Two additional queries were performed to determine the number of employees eligible for retirement by department and the number of employees eligible for the mentorship program by each department to help each department prepare to fill open positions caused by the 'silver tsunami.' The Additional_queries image shows the queries. The images titles_by_dept and mentorship_count are the corresponding tables.
-
-![Additional_queries.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/Additional_queries.png)
-![titles_by_dept.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/titles_by_dept.png)            ![mentorship_count.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/mentorship_count.png)
-
+* Two additional queries were performed to determine the number of employees eligible for retirement by department and the number of employees eligible for the mentorship program by each department to help each department prepare to fill open positions caused by the 'silver tsunami.' The [Additional_queries.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/Additional_queries.png) image shows the queries. The images titles_by_dept and mentorship_count are the corresponding tables.
+![titles_by_dept.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/titles_by_dept.png)
+![mentorship_count.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/mentorship_count.png)
 * A total of 90,398 roles will need to be filled at the company Pewlett Hackard as seen in the retiring titles and titles by department images.
 * Based on the mentorship count image, there are not enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees based on the number of roles that will need to be filled. The mentorship program should be expanded to senior-level positions instead of limited to only retirement-ready employees.
