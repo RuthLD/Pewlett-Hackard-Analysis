@@ -14,7 +14,7 @@ The company was concerned by the number of employees eligible for retirement and
 * Query:
 * ![unique_titles_query.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/unique_titles_query.png)
 * Output: [unique_titles.csv](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Data/unique_titles.csv)
-* A total of 90,398 titles were retured representing the most recent job title of each employee eligible for retirement. 
+* A total of 90,398 titles were returned representing the most recent job title of each employee eligible for retirement. 
 ## Retiring Titles
 * Query:
 * ![retiring_titles_query.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/retiring_titles_query.png)
@@ -25,14 +25,13 @@ The company was concerned by the number of employees eligible for retirement and
 * Query:
 * ![mentorship_eligibility_query.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/mentorship_eligibility_query.png)
 * Output: [mentorship_eligibility.csv](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Data/mentorship_eligibility.csv)
-* A total of 1,464 retirement-eligible employees are eligible to also participate in the mentorship program.
+* A total of 1,464 retirement-eligible employees are also eligible to participate in the mentorship program.
 
 # Summary: 
-* Two additional queries were performed to determine the number of employees eligible for retirement by department and the number of employees eligible for the mentorship program by each department from the unique_titles.csv to help each department prepare to fill open positions caused by the 'silver tsunami.' The Additional_queries image shows the queries. The images titles_by_dept and mentorship_count are the corresponding tables.
+* Two additional queries were performed to determine the number of employees eligible for retirement by department and the number of employees eligible for the mentorship program by each department to help each department prepare to fill open positions caused by the 'silver tsunami.' The Additional_queries image shows the queries. The images titles_by_dept and mentorship_count are the corresponding tables.
 
 ![Additional_queries.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/Additional_queries.png)
-![titles_by_dept.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/titles_by_dept.png)
-![mentorship_count.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/mentorship_count.png)
+![titles_by_dept.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/titles_by_dept.png)            ![mentorship_count.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/mentorship_count.png)
 
 * A total of 90,398 roles will need to be filled at the company Pewlett Hackard as seen in the retiring titles and titles by department images.
 * Based on the mentorship count image, there are not enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees based on the number of roles that will need to be filled. The mentorship program should be expanded to senior-level positions instead of limited to only retirement-ready employees.
