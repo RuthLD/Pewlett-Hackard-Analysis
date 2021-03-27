@@ -9,18 +9,23 @@ The company was concerned by the number of employees eligible for retirement and
 * Query:
 * ![retirment_titles_query.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/retirement_titles_query.png)
 * Output: [retirement_titles.csv](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Data/retirement_titles.csv)
+* A total of 133,776 titles were returned for retirement eligible employees. This number is an overrepresentation because some employees have multiple job titles due to promotions and role changes.
 ## Unique Titles
 * Query:
 * ![unique_titles_query.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/unique_titles_query.png)
 * Output: [unique_titles.csv](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Data/unique_titles.csv)
+* A total of 90,398 titles were retured representing the most recent job title of each employee eligible for retirement. 
 ## Retiring Titles
 * Query:
 * ![retiring_titles_query.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/retiring_titles_query.png)
 * Output: [retiring_titles.csv](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Data/retiring_titles.csv)
+* ![retiring_titles.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/retiring_titles.png)
+* The image retiring_titles is the number of employees by most recent title who are eligible for retirement. The title held by the highest number of retirement-eligible employees is Senior Engineer (29,414). The title held by the least number of retirement-eligible employees is Manager (2).
 ## Mentorship Eligibility
 * Query:
 * ![mentorship_eligibility_query.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/mentorship_eligibility_query.png)
 * Output: [mentorship_eligibility.csv](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Data/mentorship_eligibility.csv)
+* A total of 1,464 retirement-eligible employees are eligible to also participate in the mentorship program.
 
 # Summary: 
 * Two additional queries were performed to determine the number of employees eligible for retirement by department and the number of employees eligible for the mentorship program by each department from the unique_titles.csv to help each department prepare to fill open positions caused by the 'silver tsunami.' The Additional_queries image shows the queries. The images titles_by_dept and mentorship_count are the corresponding tables.
@@ -29,6 +34,5 @@ The company was concerned by the number of employees eligible for retirement and
 ![titles_by_dept.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/titles_by_dept.png)
 ![mentorship_count.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/mentorship_count.png)
 
-![retiring_titles.png](https://github.com/RuthLD/Pewlett_Hackard_Analysis/blob/main/Resources/retiring_titles.png)
 * A total of 90,398 roles will need to be filled at the company Pewlett Hackard as seen in the retiring titles and titles by department images.
 * Based on the mentorship count image, there are not enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees based on the number of roles that will need to be filled. The mentorship program should be expanded to senior-level positions instead of limited to only retirement-ready employees.
