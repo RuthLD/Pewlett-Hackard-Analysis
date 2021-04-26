@@ -1,5 +1,5 @@
 # Pewlett-Hackard-Analysis
-Employee Databases with PostgreSQL
+🧑‍🤝‍🧑Employee Databases with PostgreSQL
 
 # Overview 
 The company was concerned by the number of employees eligible for retirement and the open positions they will leave behind. The purpose of the analysis was to the number of retiring employees per job title and identify employees who would be eligible to participate in a mentorship program.
